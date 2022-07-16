@@ -9,7 +9,7 @@ import closeIcon from "../../images/closeIcon.png";
 
 let socket;
 
-const ENDPOINT = "http://localhost:3000/";
+const ENDPOINT = "http://localhost:3050/";
 
 const Chat = () => {
     const [id, setid] = useState("");
@@ -68,7 +68,7 @@ const Chat = () => {
         <div className="chatPage">
             <div className="chatContainer">
                 <div className="header">
-                    <h2>C CHAT</h2>
+                    <h2>GROUP CHAT APPLICATION</h2>
                     <a href="/"> <img src={closeIcon} alt="Close" /></a>
                 </div>
                 <ReactScrollToBottom className="chatBox">

@@ -4,8 +4,7 @@ const cors = require("cors");
 const socketIO = require("socket.io");
 
 const app=express();
-const port = 3000;
-// const port= "http://localhost:5000/" ;
+const port = 3050;
 
 
 const users=[{}];
